@@ -1,0 +1,91 @@
+body {
+  
+  
+  
+  min-height: 100vh;
+ display: flex;
+ font-weight: 400;
+ font-family: "Fira Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+ font-weight: 500;
+ font-family: "Fira Sans", sans-serif;
+ /* font-display: white;   */
+}
+
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+ width: 100%;
+ height: 100%;
+}
+
+
+
+.auth-wrapper {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: left;
+ background-image: url(https://www.federalbank.co.in/documents/10180/85549705/Admin-Login.jpg/9d5536a9-ddb0-2472-da99-b1ff5a17308f?t=1646462776939);
+}
+
+.auth-inner {
+ width: 450px;
+ margin: auto;
+  background-image:url(https://t4.ftcdn.net/jpg/01/22/71/95/360_F_122719584_A863mvJEcEAnqmGQ4ky6RbXEhsHKw95x.jpg) ;
+
+ padding: 40px 55px 45px 55px;
+ border-radius: 15px;
+ transition: all 0.3s;
+}
+
+.auth-wrapper .form-control:focus {
+ border-color: #cc942d;
+ box-shadow: none;
+}
+
+.auth-wrapper h3 {
+ text-align: center;
+ margin: 0;
+ line-height: 1;
+ padding-bottom: 20px;
+ 
+ 
+
+ 
+}
+.custom-control-label {
+ font-weight: 400;
+ 
+}
+
+.forgot-password,
+.forgot-password a {
+ text-align: right;
+ font-size: 13px;
+ padding-top: 10px;
+ color: #2d0af3;
+ margin: 0;
+}
+
+.forgot-password a {
+ color:  #3651eb;
+}
+
+.custom-input {
+ border: 1px solid rgb(211, 150, 18);
+ color: rgb(35, 87, 133);
+}
+.label{
+  color: aliceblue;
+}
